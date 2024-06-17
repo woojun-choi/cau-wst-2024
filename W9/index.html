@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8"/>
+    <tilte>adasdasd</tilte>
+    <style>
+      * { margin: 0; padding: 0;}
+
+      body { background: red;}
+
+      .top-bar {
+        background: rebeccapurple;
+        position: fixed;
+        left: 0; top: 0; right: 0;
+        height: 50%;
+      }
+
+      .left-bar {
+        background: blue;
+        position: fixed;
+        left: 0; top: 50px; bottom: 0;
+        width: 50%;
+      }
+
+      #container {
+        width: 500px; height: 250px;
+        background: orange;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -250px;
+        margin-top: -125px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top-bar"></div>
+    <div id="left-bar"></div>
+    <div id="container">
+      <h1>요소의 중앙 배치</h1>
+    </div>
+  </body>
+</html>
